@@ -56,6 +56,25 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      animation: {
+        text: "text 5s ease-in infinite",
+        gradient: "gradient 5s linear infinite",
+      },
+      keyframes: {
+        text: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+        gradient: {
+          to: { "background-position": "200% center" },
+        },
+      },
       // keyframes: {
       //   "accordion-down": {
       //     from: { height: 0 },

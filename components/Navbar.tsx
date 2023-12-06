@@ -24,7 +24,7 @@ const Navbar = () => {
           />
 
           <p className="nav-logo">
-            Az<span className='text-primary'>Tracker</span>
+            Az<span className='text-primary textani1'>Tracker</span>
           </p>
         </Link>
 

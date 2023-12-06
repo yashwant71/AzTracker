@@ -25,11 +25,11 @@ const Home = async () => {
 
             <h1 className="head-text text-primary">
               Unleash the Power of
-              <span className="text-primary text-red-800"> AzTracker</span>
+              <span className="text-primary textani2 text-red-800"> AzTracker</span>
             </h1>
 
             <p className="mt-6">
-              Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
+              Track amazon products prices & in stock changes,with simple Search, we will inform you when its right time to buy !
             </p>
 
             <Searchbar />
